@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  duedate: 2013-11-09
+  reminder: false
+  reminderdue: 1
+
+two:
+  name: MyString
+  duedate: 2013-11-09
+  reminder: false
+  reminderdue: 1
