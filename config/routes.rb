@@ -1,4 +1,6 @@
 Scholar::Application.routes.draw do
+  root :to => redirect('/users')
+
   resources :apps
 
   resources :users
