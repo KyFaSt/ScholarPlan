@@ -33,7 +33,7 @@
 
 		    // page is now ready, initialize the calendar...
 
-		    $('#calendar').fullCalendar({
+		    var calendar = $('#calendar').fullCalendar({
 		        // put your options and callbacks here
 		    })
 
@@ -65,6 +65,36 @@
     </div><!-- /.navbar -->
 
     <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="panel panel-info">
+              
+              <div class="panel-body">
+                <ul class="nav nav-pills">
+                  <li class="active"><a href="#">Calander</a></li>
+                  <li><a href="#">Applications</a></li>
+                </ul>
+                <div id='calendar'></div>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              </div>
+            </div>
+          
+          
+     
+        </div>
+        <div class="col-md-4">
+          <div class="list-group">
+              <a href="#" class="list-group-item">New Application</a>
+              <a href="#" class="list-group-item">User Profile</a>
+              <a href="#" class="list-group-item">Set Reminder</a>
+            </div>
+     
+        </div>
+      </div>
+
+
+
+
 
       <div class="row row-offcanvas row-offcanvas-right">
 
@@ -81,22 +111,21 @@
           <div class="row">
             <div class="col-16 ">
               <h2>Calendar</h2>
-              <div id='calendar'></div>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              
             </div><!--/span-->
            
             
           </div><!--/row-->
         </div><!--/span-->
 
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+        <!--<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
           <div class="list-group">
             <a href="#" class="list-group-item active">New Application</a>
             <a href="#" class="list-group-item">User Profile</a>
             <a href="#" class="list-group-item">Set Reminder</a>
       
           </div>
-        </div><!--/span-->
+        </div>-->    <!--/span-->
       </div><!--/row-->
 
       <hr>
