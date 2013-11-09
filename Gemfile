@@ -6,7 +6,7 @@ gem 'rails', '4.0.0'
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
 							  :github => 'anjlab/bootstrap-rails',
                               :branch => '3.0.0'
-
+gem 'bootstrap'
 
 group :development do
   gem 'sqlite3', '1.3.8'
